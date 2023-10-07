@@ -1,0 +1,323 @@
+:root{
+      --fuenteHeading: 'PT Sans','sans-serif';
+      --fuenteparrafos: 'Open Sans','sans-serif';
+      --primario: #03492d;
+      --gris: #e1e1e1;
+      --blanco:#ffffff;
+      --negro:#000000;
+}
+
+html{
+     box-sizing: border-box;
+     font-size: 62.5%;
+}
+
+*,*:before, *:after{
+   box-sizing: inherit;
+}
+
+body{
+      font-family: var(--fuenteparrafos);
+      font-size: 1.6rem;
+      line-height: 2;
+}
+
+/*Globales*/
+.contenedor{
+     width: min(90%, 120rem);
+     margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1,h2,h3,h4{ 
+    font-family: var(--fuenteHeading);
+    line-height: 1.2;
+}
+
+h1{
+    font-size: 4.8rem;
+}
+
+h2{
+    font-size: 4rem;
+}
+
+h3{
+    font-size: 3.2rem;
+}
+
+h4{
+    font-size: 2.8rem;
+}
+
+img{
+    max-width: 100%;
+}
+
+.no-margin{
+     margin: 0;
+}
+
+.centrar-texto{
+     text-align: center;
+}
+
+.header{
+     background-image: url(../img/BRAIN1.png);
+     height: 60rem;
+     background-size: cover;
+     background-repeat: pink;
+     background-position: center;
+}
+
+.header_texto{
+    text-align: center;
+    color: var(--blanco);
+    margin-top: 5rem;
+    background-color: rgba(3,73,45, 0.5);
+}
+.header_textop{
+    text-align: center;
+    color: var(--blanco);
+    margin-top: 5rem;
+    background-color: #A0CACF;
+}
+@media(min-width:768px){
+    .header_texto{
+        margin-top: 10rem;
+    }
+}
+
+.barra{
+        padding-top: 4rem;
+}
+
+@media(min-width:768px){
+    .barra{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;         
+   }
+}
+
+.logo{
+    color:var(--blanco);
+    border-radius: 1rem;
+    padding: 0.5rem;
+}
+
+.logo__nombre{
+    font-weight: 400;
+}
+
+.logo_bold{
+    font-weight: 700;
+}
+
+@media(min-width:768px){  
+    .navegacion{
+        display: flex;
+        gap:2rem;
+        background-color: 
+        border-radius: 1rem;
+        padding: 0.5rem;
+     }  
+}
+
+.navegacion_enlace{
+    display:block;
+    text-align: center;
+    font-size: 1.8rem;
+    color: var(--blue);
+    font-weight: 700;
+}
+
+@media(min-width:768px){     
+.contenedor_principal{
+      display: grid;
+      grid-template-columns: 2fr  1fr ;
+      column-gap: 4rem;
+   }
+}
+
+.entrada{
+    border-bottom: 5px solid var(--gris);
+    margin-bottom: 2rem;
+    border:none;
+}
+
+.boton{
+    display: block;
+    font-family: var(--fuenteHeading);
+    color:var(--blanco);
+    text-align: center;
+    padding: 1rem 3rem;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    border-radius: 0.5rem;
+}
+
+.boton:hover{
+       cursor: pointer;
+}
+
+.boton_primario{
+      background-color: pink
+}
+
+.boton-secundario{
+    background-color: pink
+}
+
+.widget-curso{
+        border-bottom: 1px solid var(--negro);
+        margin-bottom: 4rem;
+}
+
+.widget-curso_label{
+       font-size: var(--fuenteHeading);
+       font-weight: 700;
+}
+
+.footer{
+   background-color: royalblue;
+   padding: 1rem;
+}
+
+
+
+
+
+
+{ margen :  0 ; relleno :  0 ; }
+cuerpo { tamaño de fuente :  14 px ; }
+
+/* OPPS ----------------------------------------------- ---------------------- */
+
+h3 {
+	margen inferior :  10 px ;
+	tamaño de fuente :  15 px ;
+	peso de fuente :  600 ;
+	transformación de texto : mayúsculas;
+}
+
+. opps {
+	ancho :  496 píxeles ;
+	radio del borde :  4 px ;
+	tamaño de caja : cuadro de borde;
+	relleno :  0  45 px ;
+	margen :  40 px automático;
+	desbordamiento : oculto;
+	borde :  1 px sólido # b0afb5 ;
+	familia de fuentes :  'Open Sans' , sans-serif;
+	color :  # 4f5365 ;
+}
+
+. recordatorio de opps {
+	posición : relativa;
+	arriba :  -1 px ;
+	relleno :  9 px  0  10 px ;
+	tamaño de fuente :  11 px ;
+	transformación de texto : mayúsculas;
+	alineación de texto : centro;
+	color :  #ffffff ; _
+	fondo :  # 000000 ;
+}
+
+. información-opps {
+	margen superior :  26 px ;
+	posición : relativa;
+}
+
+. información-opps : después de {
+	visibilidad : oculta;
+     mostrar : bloquear;
+     tamaño de fuente :  0 ;
+     contenido :  "" ;
+     claro : ambos;
+     altura :  0 ;
+
+}
+
+. marca-opps {
+	ancho :  45 % ;
+	flotador : izquierda;
+}
+
+. imagen de marca opps  {
+	ancho máximo :  250 px ;
+	margen superior :  2 px ;
+}
+
+. cantidad de opps {
+	ancho :  55 % ;
+	flotar : derecha;
+}
+
+. cantidad-ops  h2 {
+	tamaño de fuente :  36 px ;
+	color :  # 000000 ;
+	altura de línea :  24 px ;
+	margen inferior :  15 px ;
+}
+
+. cantidad-opps  h2  sup {
+	tamaño de fuente :  16 px ;
+	posición : relativa;
+	arriba :  -2 píxeles
+}
+
+. cantidad de opps  p {
+	tamaño de fuente :  10 px ;
+	altura de línea :  14 px ;
+}
+
+. referencia-opps {
+	margen superior :  14 px ;
+}
+
+h1 {
+	tamaño de fuente :  27 px ;
+	color :  # 000000 ;
+	alineación de texto : centro;
+	margen superior :  -1 px ;
+	relleno :  6 px  0  7 px ;
+	borde :  1 px sólido # b0afb5 ;
+	radio del borde :  4 px ;
+	fondo :  # f8f9fa ;
+}
+
+. instrucciones-opps {
+	margen :  32 px  -45 px  0 ;
+	relleno :  32 px  45 px  45 px ;
+	borde superior :  1 px sólido # b0afb5 ;
+	fondo :  # f8f9fa ;
+}
+
+viejo {
+	margen :  17 px  0  0  16 px ;
+}
+
+li  +  li {
+	margen superior :  10 px ;
+	color :  # 000000 ;
+}
+
+un {
+	color :  # 1155cc ;
+}
+
+. opps-nota al pie {
+	margen superior :  22 px ;
+	relleno :  22 px  20  24 px ;
+	color :  # 108f30 ;
+	alineación de texto : centro;
+	borde :  1 px sólido # 108f30 ;
+	radio del borde :  4 px ;
+	fondo :  #ffffff ; _
+}
